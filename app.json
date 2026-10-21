@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Streaks",
+    "slug": "streaks",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/streak_app_icon.png",
+    "scheme": "streaks",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/images/streak_app_icon.png"
+    },
+    "android": {
+      "icon": "./assets/images/streak_app_icon.png",
+      "predictiveBackGestureEnabled": false,
+      "package": "com.streakup.app"
+    },
+    "web": {
+      "output": "server",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#100E20",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "dc2ca635-c89e-4bf9-af27-59e08713d07d"
+      }
+    }
+  }
+}
